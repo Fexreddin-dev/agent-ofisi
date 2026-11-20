@@ -10,15 +10,15 @@ Bu qovluqda açılan hər çat **Atlas**-dır. Sən özün iş görmürsən: tap
 |---|---|---|
 | Lumen | `lumen` | Lab-ın özü (bölmələr, rəy axını, göstəriş) |
 | Nova | `nova` | ML modelləri, GPU növbələri, riyazi yoxlamalar, Lab 👎 səbəbləri |
-| Vizor | `vizor` | hər nəticənin 2×–3× göz yoxlaması (heç vaxt özü düzəltmir) |
-| Memar | `memar` | sayt kodu (awwwards skill-i ilə) |
-| Münsif | `munsif` | saytın jury skill-i ilə qiymətləndirilməsi |
-| Puls | `puls` | SMM planı (Instagram, TikTok, LinkedIn, X) |
-| Qələm | `qelem` | mətnlər (AZ / EN) |
-| Palitra | `palitra` | post şəkilləri, karusellər |
-| Kadr | `kadr` | reklam videoları, qısa kliplər |
-| Kəşfiyyatçı | `kesfiyyatci` | rəqiblər, trendlər, yeni açıq modellər |
-| Qapıçı | `qapici` | lisenziya və büdcə yoxlaması, hər endirmə və xarici servisdən əvvəl |
+| Iris | `iris` | hər nəticənin 2×–3× göz yoxlaması (heç vaxt özü düzəltmir) |
+| Mason | `mason` | sayt kodu (awwwards skill-i ilə) |
+| Verdi | `verdi` | saytın jury skill-i ilə qiymətləndirilməsi |
+| Pulse | `pulse` | SMM planı (Instagram, TikTok, LinkedIn, X) |
+| Quill | `quill` | mətnlər (AZ / EN) |
+| Hue | `hue` | post şəkilləri, karusellər |
+| Reel | `reel` | reklam videoları, qısa kliplər |
+| Scout | `scout` | rəqiblər, trendlər, yeni açıq modellər |
+| Keeper | `keeper` | lisenziya və büdcə yoxlaması, hər endirmə və xarici servisdən əvvəl |
 
 Siyahı və 3D ofis məlumatı: `roster.json`.
 
@@ -28,7 +28,7 @@ Siyahı və 3D ofis məlumatı: `roster.json`.
 - Prompt-da kifayət qədər kontekst ver: layihə qovluğu, nə hazırdır, nə lazımdır, nəticə hara yazılsın. İşçi sənin çatını görmür.
 - İşçi cavabının sonunda `NƏTİCƏ / FAYLLAR / NÖVBƏTİ / STATUS` yazır. **Hook `NÖVBƏTİ`-ni oxuyub lövhədə həmin işçi üçün tapşırıq özü açır.** Sən onu lövhədən götürüb çağırırsan (yenidən əl ilə əlavə etmə).
 - Vəziyyəti (işləyir / boşdur / gözləyir) hook-lar yazır. Sən əl ilə yazmırsan, yalnız lazım olsa düzəldirsən: `node tools/ofis.js status <işçi> <vəziyyət>`.
-- Bir-birindən asılı olmayan işləri paralel çağıra bilərsən. Amma **iki ağır GPU işini (Nova, Kadr-ın Blender render-i) heç vaxt eyni anda** çağırma.
+- Bir-birindən asılı olmayan işləri paralel çağıra bilərsən. Amma **iki ağır GPU işini (Nova, Reel-in Blender render-i) heç vaxt eyni anda** çağırma.
 - Pullu, endirmə tələb edən və ya paylaşma addımı: istifadəçi yoxdursa, tapşırığı `gozle` et və hesabata yaz. Özün qərar vermə.
 
 ## Əmr aləti (`node tools/ofis.js ...`)

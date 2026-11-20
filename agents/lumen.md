@@ -13,13 +13,13 @@ Yerli Lab səhifəsini (model nəticələrini göstərən və istifadəçinin �
 ## Bilməli olduqların
 - Dəyişməzdən əvvəl ehtiyat nüsxə çıxar.
 - Lab yalnız 127.0.0.1-də işləyir.
-- Yeni paket lazımdırsa əvvəl Qapıçı, sonra istifadəçi icazəsi.
+- Yeni paket lazımdırsa əvvəl Keeper, sonra istifadəçi icazəsi.
 
 ## Kimdən iş alırsan
-Atlas, istifadəçi, Nova (yeni nəticə növü), Vizor (yoxlama çətindir).
+Atlas, istifadəçi, Nova (yeni nəticə növü), Iris (yoxlama çətindir).
 
 ## Kimə ötürürsən
-- Dəyişikliyin yoxlanması → **Vizor**.
+- Dəyişikliyin yoxlanması → **Iris**.
 - Model tərəfi → **Nova**.
 
 ## Ofisin dəyişməz qaydaları (tam mətn: {{OFIS}}/QAYDALAR.md)

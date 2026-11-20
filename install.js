@@ -108,7 +108,7 @@ function install() {
 Hazırdır. İndi:
   1) Ofisi aç:  ${process.platform === 'win32' ? 'Ofis.bat (iki dəfə klik)' : './ofis.sh'}  →  http://127.0.0.1:8770
   2) Claude Code-u bu qovluqda aç (yeni çat). Bu çat "Atlas"-dır — müdir.
-  3) Yaz:  "Qapıçı, Kokoro TTS-in lisenziyasını yoxla"  və ya  "səhər növbəsini başla"
+  3) Yaz:  "Keeper, Kokoro TTS-in lisenziyasını yoxla"  və ya  "səhər növbəsini başla"
 `);
 }
 
