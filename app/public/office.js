@@ -187,8 +187,6 @@
     s.push(box(25.4, 1.0, 0, 2.2, 0.85, 0.42, 'sofa'));
     s.push(box(25.4, 1.0, 0.42, 2.2, 0.22, 0.45, 'sofa'));
     s.push(box(25.8, 2.5, 0, 1.3, 0.7, 0.36, 'deskSide'));
-    // Media: whiteboard
-    s.push(box(5.0, 7.38, 0.8, 2.2, 0.05, 1.1, '#e8e8e4'));
     // Lounge: coffee bar + plants
     s.push(box(12.4, 5.6, 0, 1.6, 0.6, 1.0, 'deskSide'));
     s.push(box(12.4, 5.6, 1.0, 1.6, 0.6, 0.04, 'desk'));
