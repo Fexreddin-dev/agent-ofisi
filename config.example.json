@@ -1,0 +1,6 @@
+{
+  "_qeyd": "İstəyə bağlı Lab körpüsü. labOutputs: içində lab_eye.json olan qovluq (bu qovluğa nisbətən və ya tam yol). Boş qalsa körpü sönülüdür.",
+  "labOutputs": "",
+  "feedbackFile": "lab_user_feedback.jsonl",
+  "labBadTo": "nova"
+}

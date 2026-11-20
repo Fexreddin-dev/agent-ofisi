@@ -1,0 +1,7 @@
+# office memory and drafts stay on your computer
+data/
+out/
+config.json
+node_modules/
+*.log
+.claude/settings.local.json

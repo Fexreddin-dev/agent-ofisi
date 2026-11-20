@@ -1,0 +1,17 @@
+{
+  "_qeyd": "Ofisin işçi siyahısı. 3D ofis, hook-lar və CLI bu fayldan oxuyur. Yeni işçi: buraya bir sətir + ~/.claude/agents/<id>.md faylı.",
+  "agents": [
+    { "id": "atlas", "ad": "Atlas", "is": "Ofis müdiri: tapşırığı doğru işçiyə yönləndirir, növbəni aparır, hesabat yazır.", "model": "əsas çat", "otaq": "mudir", "reng": "#f2c14e", "cagir": "AgentOfis qovluğunda çat aç: 'səhər növbəsini başla' və ya istənilən tapşırıq", "subagent": false },
+    { "id": "lumen", "ad": "Lumen", "is": "Lab ustası: model nəticələrinə 👍/👎 verdiyin Lab-ı qurur.", "model": "opus", "otaq": "lab", "reng": "#7cc6ff", "cagir": "Lumen, Lab-a ... əlavə et", "subagent": true },
+    { "id": "nova", "ad": "Nova", "is": "Model mühəndisi: ML modelləri, GPU növbələri, riyazi yoxlamalar.", "model": "opus", "otaq": "lab", "reng": "#a78bfa", "cagir": "Nova, ... növbəsini başlat", "subagent": true },
+    { "id": "vizor", "ad": "Vizor", "is": "Keyfiyyət gözü: hər nəticəyə 2×–3× yaxından baxır, özü düzəltmir.", "model": "opus", "otaq": "lab", "reng": "#5eead4", "cagir": "Vizor, bu nəticələrə 2× bax", "subagent": true },
+    { "id": "memar", "ad": "Memar", "is": "Sayt ustası: saytı awwwards skill-i ilə qurur və düzəldir.", "model": "opus", "otaq": "sayt", "reng": "#fb923c", "cagir": "Memar, saytda ... düzəlt", "subagent": true },
+    { "id": "munsif", "ad": "Münsif", "is": "Sayt hakimi: Memar-ın işini jury skill-i ilə qiymətləndirir.", "model": "opus", "otaq": "sayt", "reng": "#f87171", "cagir": "Münsif, saytı qiymətləndir", "subagent": true },
+    { "id": "puls", "ad": "Puls", "is": "SMM beyni: nəyi, harada, nə vaxt və hansı şəkil/videoyla paylaşmağı planlayır.", "model": "sonnet", "otaq": "media", "reng": "#f472b6", "cagir": "Puls, gələn həftənin post planını hazırla", "subagent": true },
+    { "id": "qelem", "ad": "Qələm", "is": "Mətn yazarı: post, başlıq və təsvirləri AZ və EN dillərində yazır.", "model": "sonnet", "otaq": "media", "reng": "#facc15", "cagir": "Qələm, bu post üçün mətn yaz", "subagent": true },
+    { "id": "palitra", "ad": "Palitra", "is": "Dizayner: post şəkilləri və karusellər hazırlayır.", "model": "sonnet", "otaq": "media", "reng": "#4ade80", "cagir": "Palitra, bu mətnlə karusel düzəlt", "subagent": true },
+    { "id": "kadr", "ad": "Kadr", "is": "Video rejissoru: reklam videoları və qısa klipləri pulsuz alətlərlə çəkir.", "model": "sonnet", "otaq": "media", "reng": "#60a5fa", "cagir": "Kadr, 15 saniyəlik Reels düzəlt", "subagent": true },
+    { "id": "kesfiyyatci", "ad": "Kəşfiyyatçı", "is": "Araşdırmaçı: rəqibləri, trendləri və yeni açıq modelləri izləyir.", "model": "sonnet", "otaq": "arasdirma", "reng": "#c084fc", "cagir": "Kəşfiyyatçı, yeni açıq modelləri araşdır", "subagent": true },
+    { "id": "qapici", "ad": "Qapıçı", "is": "Lisenziya və büdcə gözətçisi: icazəsiz və pullu addımların qarşısını alır.", "model": "haiku", "otaq": "arasdirma", "reng": "#94a3b8", "cagir": "Qapıçı, bu modelin lisenziyasını yoxla", "subagent": true }
+  ]
+}
