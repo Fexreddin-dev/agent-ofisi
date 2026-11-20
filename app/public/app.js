@@ -124,9 +124,9 @@
         <div class="sec"><h3>Tarixçə</h3>${hist.length ? `<div class="hist">${hist.map((h) => `<div class="h"><div class="top"><span>${dm(h.t)}${h.taskId ? ' · ' + esc(h.taskId) : ''}</span><span>${h.status && h.status !== 'idle' ? ST_AZ[h.status] : 'bitdi'}${h.next ? ' → ' + esc(nameOf(h.next)) : ''}</span></div>${h.task ? `<div class="task">${esc(h.task)}</div>` : ''}<div class="res">${esc(h.result || '')}</div></div>`).join('')}</div>` : '<div class="empty">Hələ bitmiş iş yoxdur.</div>'}</div>
       </div>
       <form class="form" id="taskForm">
-        <label for="taskText">${esc(d.ad)} üçün yeni tapşırıq</label>
+        <label for="taskText">${esc(d.ad)} üçün tapşırıq qutusu</label>
         <textarea id="taskText" maxlength="4000" placeholder="${esc(d.cagir || 'Tapşırığı yaz...')}"></textarea>
-        <div class="row"><span class="small">Lövhəyə düşür. Açıq "Atlas növbəsi" çatı növbəti dövrədə götürür.</span><button class="btn primary" type="submit">Göndər</button></div>
+        <div class="row"><span class="small">Bu çat deyil: yazdığın lövhəyə tapşırıq kimi düşür. Atlas onu növbədə və ya çatda “lövhəni işlə” deyəndə görür, cavab “Tarixçə”də görünür. Sual vermək üçün Claude Code çatına yaz.</span><button class="btn primary" type="submit">Göndər</button></div>
       </form>`;
     const nta = p.querySelector('textarea');
     nta.value = draft[id] || '';
@@ -143,7 +143,7 @@
       const r = await fetch('/api/task', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ to, text }) });
       const j = await r.json();
       if (!r.ok) { toast(j.error || 'Göndərilmədi'); return; }
-      toast(`${j.task.id} → ${nameOf(j.task.to)}: lövhəyə düşdü`);
+      toast(`${j.task.id} → ${nameOf(j.task.to)}: lövhəyə düşdü. Nəticə “Tarixçə”də görünəcək.`);
       Office.flow('panel', j.task.to, 'call');
       ok && ok();
     } catch (e) { toast('Server cavab vermir'); }
