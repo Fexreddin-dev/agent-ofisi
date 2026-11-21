@@ -1,6 +1,6 @@
 # Agent Ofisi
 
-**A live 3D office for your Claude Code agents.** 11 workers, one manager, a shared task board, and a room where you can watch who is doing what.
+**A live 3D office for your Claude Code agents.** 12 agents (11 workers and a manager), a shared task board, and a room where you can watch who is doing what.
 
 ![Agent Ofisi](docs/office.png)
 

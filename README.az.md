@@ -1,6 +1,6 @@
 # Agent Ofisi
 
-**Claude Code agentləri üçün canlı 3D ofis.** 11 işçi, bir müdir, ortaq tapşırıq lövhəsi və kimin nə etdiyini gördüyün otaq.
+**Claude Code agentləri üçün canlı 3D ofis.** 12 agent (11 işçi və bir müdir), ortaq tapşırıq lövhəsi və kimin nə etdiyini gördüyün otaq.
 
 ![Agent Ofisi](docs/office.png)
 
